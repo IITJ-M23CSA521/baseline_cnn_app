@@ -51,4 +51,4 @@ if uploaded_file is not None:
     except Exception as e:
         st.error(f"❌ Error during prediction: {e}")
 else:
-    st.info("👈 Please upload a .jpg or .png image to classify.")
+    st.info("👈 Please upload a .jpg or .png image to classify.")  
